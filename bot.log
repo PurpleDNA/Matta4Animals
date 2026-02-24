@@ -1,0 +1,15 @@
+2026-02-24 13:16:06,344 [INFO] Twitter Bot initialized. Post time: 17:06
+2026-02-24 13:16:06,345 [INFO] Dry Run Mode: False
+2026-02-24 13:16:06,346 [INFO] Bot is now running and scheduled.
+2026-02-24 13:27:05,355 [INFO] Twitter Bot initialized. Post time: 17:06
+2026-02-24 13:27:05,355 [INFO] Dry Run Mode: True
+2026-02-24 13:27:05,356 [INFO] Running once as requested by --once argument...
+2026-02-24 13:27:05,356 [INFO] Starting daily bot run...
+2026-02-24 13:27:05,356 [INFO] Selected Topic: animal protection
+2026-02-24 13:27:05,357 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-24 13:27:08,368 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 13:27:08,380 [INFO] Generated Content: You know say snail dey sleep for like 3 years straight if weather no gree dem? Imagine! We dey complain of NEPA, snail dey hibernate pass us. Respect all creatures jare! #Matta4Animals #AnimalRights
+2026-02-24 13:27:08,380 [INFO] [DRY RUN] Tweet not actually posted.
+2026-02-24 13:27:08,380 [INFO] Checking for mentions (simulation)...
+2026-02-24 13:27:08,381 [INFO] [REPLY LOGIC] Skipping check in dry run.
+2026-02-24 13:27:08,381 [INFO] Daily run completed.
