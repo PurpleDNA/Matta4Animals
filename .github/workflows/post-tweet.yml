@@ -1,0 +1,39 @@
+name: Matta4Animals - Post Daily Tweet
+
+on:
+  # Run every day at 9:00 AM UTC (10:00 AM Nigeria/WAT time)
+  schedule:
+    - cron: '0 9 * * *'
+  # Allow manual triggering from the GitHub Actions UI
+  workflow_dispatch:
+
+jobs:
+  post-tweet:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Download your repo code onto the runner
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # 2. Install the correct Python version
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 3. Install bot dependencies
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # 4. Run the bot once with all credentials injected as environment variables
+      - name: Run the bot
+        env:
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          DRY_RUN: ${{ secrets.DRY_RUN }}
+        run: python bot.py --once

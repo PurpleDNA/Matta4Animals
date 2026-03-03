@@ -13,3 +13,87 @@
 2026-02-24 13:27:08,380 [INFO] Checking for mentions (simulation)...
 2026-02-24 13:27:08,381 [INFO] [REPLY LOGIC] Skipping check in dry run.
 2026-02-24 13:27:08,381 [INFO] Daily run completed.
+2026-02-24 16:59:56,279 [INFO] Twitter Bot initialized. Post time: 17:06
+2026-02-24 16:59:56,284 [INFO] Dry Run Mode: True
+2026-02-24 16:59:56,284 [INFO] Running once as requested by --once argument...
+2026-02-24 16:59:56,285 [INFO] Starting daily bot run...
+2026-02-24 16:59:56,285 [INFO] Selected Topic: live transport: animals traveling for weeks in overcrowded ships
+2026-02-24 16:59:56,286 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-24 16:59:58,588 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 16:59:58,597 [INFO] Generated Content: Imagine say you dey inside ship wey pack animals like sardine for weeks. Dem dey shit and piss on top each other, many dey sick, some dey die before dem reach where dem dey go. Dis na wetin live transport be. #Matta4Animals #AnimalWelfare
+2026-02-24 16:59:58,598 [INFO] [DRY RUN] Tweet not actually posted.
+2026-02-24 16:59:58,598 [INFO] Checking for mentions (simulation)...
+2026-02-24 16:59:58,599 [INFO] [REPLY LOGIC] Skipping check in dry run.
+2026-02-24 16:59:58,599 [INFO] Daily run completed.
+2026-02-24 17:00:08,344 [INFO] Twitter Bot initialized. Post time: 17:06
+2026-02-24 17:00:08,345 [INFO] Dry Run Mode: True
+2026-02-24 17:00:08,346 [INFO] Running once as requested by --once argument...
+2026-02-24 17:00:08,347 [INFO] Starting daily bot run...
+2026-02-24 17:00:08,348 [INFO] Selected Topic: live transport: animals traveling for weeks in overcrowded ships
+2026-02-24 17:00:08,349 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-24 17:00:10,514 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 17:00:10,522 [INFO] Generated Content: Imagine say you dey inside ship wey pack full of animals for weeks. Many dey die from heat and sickness, dem body dey rot where dem stand. Nobody dey care. This cruelty pass wickedness. #Matta4Animals #AnimalWelfare
+2026-02-24 17:00:10,523 [INFO] [DRY RUN] Tweet not actually posted.
+2026-02-24 17:00:10,525 [INFO] Checking for mentions (simulation)...
+2026-02-24 17:00:10,526 [INFO] [REPLY LOGIC] Skipping check in dry run.
+2026-02-24 17:00:10,527 [INFO] Daily run completed.
+2026-02-24 17:00:19,797 [INFO] Twitter Bot initialized. Post time: 17:06
+2026-02-24 17:00:19,798 [INFO] Dry Run Mode: True
+2026-02-24 17:00:19,799 [INFO] Running once as requested by --once argument...
+2026-02-24 17:00:19,800 [INFO] Starting daily bot run...
+2026-02-24 17:00:19,800 [INFO] Selected Topic: bycatch: dolphins and turtles dying in large-scale fishing nets
+2026-02-24 17:00:19,801 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-24 17:00:22,256 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 17:00:22,263 [INFO] Generated Content: Many dolphins and turtles dey suffa die everytime dem dey use big nets catch fish. Dem dey drown slow slow when dem ent fit come up for air. This cruelty dey break my heart. #Matta4Animals #BycatchKills
+2026-02-24 17:00:22,265 [INFO] [DRY RUN] Tweet not actually posted.
+2026-02-24 17:00:22,265 [INFO] Checking for mentions (simulation)...
+2026-02-24 17:00:22,266 [INFO] [REPLY LOGIC] Skipping check in dry run.
+2026-02-24 17:00:22,267 [INFO] Daily run completed.
+2026-02-24 17:00:43,688 [INFO] Twitter Bot initialized. Post time: 17:06
+2026-02-24 17:00:43,689 [INFO] Dry Run Mode: False
+2026-02-24 17:00:43,690 [INFO] Running once as requested by --once argument...
+2026-02-24 17:00:43,690 [INFO] Starting daily bot run...
+2026-02-24 17:00:43,691 [INFO] Selected Topic: bycatch: dolphins and turtles dying in large-scale fishing nets
+2026-02-24 17:00:43,693 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-24 17:00:46,095 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 17:00:46,101 [INFO] Generated Content: Plenty dolphins and turtles dey suffa die every year for fishing nets wey dem no suppose dey inside. Dem dey drown slow slow, full of fear and pain, just because we want cheap fish. #Matta4Animals #ProtectOurOceans
+2026-02-24 17:00:48,905 [INFO] Tweet posted successfully! ID: 2026326459019678109
+2026-02-24 17:00:48,909 [INFO] Checking for mentions (simulation)...
+2026-02-24 17:00:48,910 [INFO] Mentions reading is restricted on Free Tier. Implement this logic if you upgrade to Basic Tier.
+2026-02-24 17:00:48,910 [INFO] Daily run completed.
+2026-02-24 17:00:58,304 [INFO] Twitter Bot initialized. Post time: 17:06
+2026-02-24 17:00:58,305 [INFO] Dry Run Mode: False
+2026-02-24 17:00:58,305 [INFO] Running once as requested by --once argument...
+2026-02-24 17:00:58,306 [INFO] Starting daily bot run...
+2026-02-24 17:00:58,307 [INFO] Selected Topic: habitat destruction: burning forests for palm oil, killing orangutans
+2026-02-24 17:00:58,308 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-24 17:01:00,404 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 17:01:00,409 [INFO] Generated Content: Dem dey burn forest for Indonesia to plant palm oil. Orangutan wey no escape dey burn alive, dey suffocate for inside smoke. Dem dey kill the ones wey survive sake of dem dey see dem as pest. #Matta4Animals #PalmOilKills
+2026-02-24 17:01:02,898 [INFO] Tweet posted successfully! ID: 2026326517878300676
+2026-02-24 17:01:02,903 [INFO] Checking for mentions (simulation)...
+2026-02-24 17:01:02,904 [INFO] Mentions reading is restricted on Free Tier. Implement this logic if you upgrade to Basic Tier.
+2026-02-24 17:01:02,905 [INFO] Daily run completed.
+2026-02-24 18:03:24,728 [INFO] Twitter Bot initialized. Post time: 17:06
+2026-02-24 18:03:24,730 [INFO] Dry Run Mode: False
+2026-02-24 18:03:24,731 [INFO] Running once as requested by --once argument...
+2026-02-24 18:03:24,731 [INFO] Starting daily bot run...
+2026-02-24 18:03:24,732 [INFO] Selected Topic: bycatch: dolphins and turtles dying in large-scale fishing nets
+2026-02-24 18:03:24,732 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-24 18:03:26,906 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 18:03:26,920 [INFO] Generated Content: Big fishing nets dey drown plenty dolphins and turtles wey no do anybody anything. Dem dey struggle for life, but na slow and painful death dey wait for dem. #Matta4Animals #BycatchIsCruel
+2026-02-24 18:03:29,432 [INFO] Tweet posted successfully! ID: 2026342231976669417
+2026-02-24 18:03:29,438 [INFO] Checking for mentions (simulation)...
+2026-02-24 18:03:29,438 [INFO] Mentions reading is restricted on Free Tier. Implement this logic if you upgrade to Basic Tier.
+2026-02-24 18:03:29,439 [INFO] Daily run completed.
+2026-02-24 18:08:13,041 [INFO] Twitter Bot initialized. Post time: 17:06
+2026-02-24 18:08:13,042 [INFO] Dry Run Mode: False
+2026-02-24 18:08:13,043 [INFO] Running once as requested by --once argument...
+2026-02-24 18:08:13,043 [INFO] Starting daily bot run...
+2026-02-24 18:08:13,044 [INFO] Selected Topic: angora wool: plucking fur from live rabbits while they scream
+2026-02-24 18:08:13,044 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-24 18:08:14,554 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 18:08:14,559 [INFO] Generated Content: Angora rabbit dey scream when dem dey pull out their fur alive. Dem dey do am every three months. Imagine the pain wey dem dey feel for the sake of fashion. #Matta4Animals #AnimalCruelty
+2026-02-24 18:08:16,835 [INFO] Tweet posted successfully! ID: 2026343437495075178
+2026-02-24 18:08:16,838 [INFO] Checking for mentions (simulation)...
+2026-02-24 18:08:16,838 [INFO] Mentions reading is restricted on Free Tier. Implement this logic if you upgrade to Basic Tier.
+2026-02-24 18:08:16,839 [INFO] Daily run completed.

@@ -35,33 +35,27 @@ DRY_RUN = os.getenv("DRY_RUN", "True").lower() == "true"
 client = genai.Client(api_key=GOOGLE_API_KEY)
 # Topic Pool
 TOPICS = [
-    "animal protection",
-    "animal advocacy",
-    "factory farming",
-    "alternative proteins",
-    "animal policy",
-    "AI safety",
-    "AI for animals",
-    "effective altruism",
-    "moral circle expansion",
-    "existential risk",
-    "longtermism for animals",
-    "animal suffering",
-    "fun facts about animals",
-    "animal cruelty",
-    "animal exploitation",
-    "poaching",
-    "unknown animal practices",
-    "marine life protection",
-    "wildlife conservation in Nigeria",
-    "the intelligence of pigs",
-    "how bees communicate",
-    "why we should care about insects",
-    "the ethics of zoos",
-    "pet adoption vs buying",
-    "street dogs in Nigeria",
-    "animal law",
-    "the sentience of fish",
+    "factory farming: confinement of pigs in gestation crates",
+    "factory farming: debeaking of chickens without anesthesia",
+    "poaching: the use of wire snares in forests",
+    "poaching: killing rhinos for horns used in medicine",
+    "circuses: training elephants using bullhooks (ankush)",
+    "circuses: lions living entire lives in small transport cages",
+    "animal trade: farming bears for bile extraction",
+    "animal trade: pangolins killed for scales in traditional medicine",
+    "trophy hunting: killing 'big five' animals for sport and photos",
+    "trophy hunting: the impact of 'canned hunting' in fenced areas",
+    "laboratory testing: testing cosmetics on rabbits' eyes (Draize test)",
+    "live transport: animals traveling for weeks in overcrowded ships",
+    "slaughterhouse practices: improper stunning before slaughter",
+    "street animal abuse: the harsh reality for dogs and cats",
+    "habitat destruction: burning forests for palm oil, killing orangutans",
+    "bycatch: dolphins and turtles dying in large-scale fishing nets",
+    "foie gras: force-feeding ducks and geese to enlarge their livers",
+    "angora wool: plucking fur from live rabbits while they scream",
+    "shark finning: cutting off fins and throwing sharks back to drown",
+    "mulesing: cutting skin off sheep without anesthesia",
+    "silk production: boiling silkworms alive in their cocoons",
 ]
 
 
@@ -78,22 +72,22 @@ def get_twitter_client():
 
 
 def generate_content(topic):
-    """Generates a tweet about a given topic using Gemini."""
+    """Generates a serious tweet about animal suffering and safety using Gemini."""
     prompt = f"""
-    You are 'Matta4Animals', a passionate Nigerian educator. You share mind-blowing facts about animals, ethics, and the future (including AI).
-    Your audience is casual Nigerians on Twitter. Your goal is to make them say "Ah, I no know that one before!"
+    You are 'Matta4Animals', a serious advocate for animal safety and an educator on animal suffering.
+    Your mission is to expose the harsh realities that animals face every day so that people will not be oblivious.
 
     Topic: {topic}
 
     Instruction:
-    1. Share a specific, surprising 'Did you know?' fact or a deep insight about the topic.
-    2. Write the ENTIRE tweet in standard, relatable Nigerian Pidgin English.
-    3. Use a tone that is educational, surprising, and slightly provocative (to spark thought), but not aggressive.
-    4. Keep it under 280 characters.
-    5. Include 1-2 relevant hashtags (e.g., #Matta4Animals, #AnimalEthics).
-    6. No quotes, no preamble like "Here is your tweet".
+    1. Write a serious, somber tweet (under 280 characters) that describes a specific, documented occurrence or practice related to the topic.
+    2. Focus on the actual suffering or the measure of cruelty involved.
+    3. Write the ENTIRE tweet in standard, serious Nigerian Pidgin English. Avoid "fun" or "did you know" excitement. The tone must be blunt and thought-provoking.
+    4. Cite the practice or action clearly (e.g., how they treat the animals in that industry).
+    5. No quotes, no preamble. 
+    6. Include 1-2 relevant hashtags (e.g., #Matta4Animals, #AnimalRights, #StopAnimalCruelty).
 
-    Example Style: "You sabi say some fish get memory pass wetin people dey talk? Dem fit remember face for years! Animals get sense o, make we treat dem well. #Matta4Animals"
+    Example Style: "For inside factory farms, dem dey cut chicken mouth (debeaking) without any medicine to dull the pain. Dis na because dem too plenty for small space and dem fit peck each other. Dis suffering too much. #Matta4Animals #StopAnimalCruelty"
     """
     try:
         response = client.models.generate_content(

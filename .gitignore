@@ -1,0 +1,19 @@
+# Environments
+.env
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+CLAUDE.md
+GEMINI.md
