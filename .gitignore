@@ -17,3 +17,4 @@ __pycache__/
 .idea/
 CLAUDE.md
 GEMINI.md
+bot.log
