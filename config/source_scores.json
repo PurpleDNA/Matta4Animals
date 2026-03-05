@@ -1,0 +1,61 @@
+{
+  "source_credibility": {
+    "lifesciencesworld.com": 10,
+    "wwf.panda.org": 9,
+    "peta.org": 9,
+    "wildwelfare.org": 8,
+    "freedomforanimals.org.uk": 9,
+    "eurogroupforanimals.org": 8,
+    "animalrightsandwrongs.uk": 6
+  },
+  "story_type_keywords": {
+    "wildlife_behavior": [
+      "behavior",
+      "behaviour",
+      "discovered",
+      "first time",
+      "rare",
+      "unusual",
+      "never before",
+      "unprecedented"
+    ],
+    "conservation": [
+      "conservation",
+      "protected",
+      "endangered",
+      "habitat",
+      "species",
+      "extinction",
+      "preserve",
+      "sanctuary"
+    ],
+    "industry_exposure": [
+      "factory",
+      "farm",
+      "slaughterhouse",
+      "investigation",
+      "footage",
+      "undercover",
+      "exposed",
+      "conditions"
+    ],
+    "scientific": [
+      "study",
+      "research",
+      "scientists",
+      "researchers",
+      "data",
+      "findings",
+      "analysis",
+      "published"
+    ],
+    "viral_event": [
+      "first time",
+      "never before",
+      "unprecedented",
+      "shocking",
+      "remarkable",
+      "extraordinary"
+    ]
+  }
+}

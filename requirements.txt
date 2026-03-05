@@ -1,5 +1,6 @@
 tweepy
-google-generativeai
 google-genai
 python-dotenv
 schedule
+feedparser
+python-dateutil

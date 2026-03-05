@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout /t 60 /nobreak)",
+      "Bash(timeout /t 90 /nobreak)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "feeds": [
+    "https://wwf.panda.org/rss",
+    "https://www.lifesciencesworld.com/feed/",
+    "https://www.peta.org/news/feed/",
+    "https://wildwelfare.org/feed/",
+    "https://animalrightsandwrongs.uk/feed/",
+    "https://www.freedomforanimals.org.uk/feed/",
+    "https://www.eurogroupforanimals.org/feed"
+  ]
+}
