@@ -15,6 +15,8 @@ jobs:
       # 1. Download your repo code onto the runner
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # 2. Install the correct Python version
       - name: Set up Python
@@ -37,3 +39,12 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           DRY_RUN: ${{ secrets.DRY_RUN }}
         run: python bot.py --once
+
+      # 5. Commit updated post history back to repo to prevent duplicate stories
+      - name: Commit post history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/post_history.json
+          git diff --cached --quiet || git commit -m "Update post history [skip ci]"
+          git push

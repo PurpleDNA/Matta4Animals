@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.env
+bot.log
+reply_bot.log
+.git/
+railway.toml
+Procfile
