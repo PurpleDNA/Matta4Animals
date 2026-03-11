@@ -18,3 +18,9 @@ __pycache__/
 CLAUDE.md
 GEMINI.md
 bot.log
+
+# Claude
+.claude/
+
+# Test scripts
+test_gemini.py
