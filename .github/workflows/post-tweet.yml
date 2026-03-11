@@ -46,8 +46,16 @@ jobs:
       # 5. Commit updated post history back to repo to prevent duplicate stories
       - name: Commit post history
         run: |
+          echo "==> Checking for changes in data/post_history.json..."
+          cat data/post_history.json
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/post_history.json
-          git diff --cached --quiet || git commit -m "Update post history [skip ci]"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update post history [skip ci]"
+            git pull --rebase origin master
+            git push
+            echo "Post history committed and pushed."
+          fi
