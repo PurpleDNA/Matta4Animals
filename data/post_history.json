@@ -1,20 +1,6 @@
 {
   "posted_stories": [
     {
-      "date": "2026-03-04 15:28:32",
-      "title": "Is there a black fox?",
-      "source_url": "https://www.lifesciencesworld.com/is-there-a-black-fox/",
-      "source": "lifesciencesworld.com",
-      "score": 82
-    },
-    {
-      "date": "2026-03-05 01:28:44",
-      "title": "What dog lived 30 years?",
-      "source_url": "https://www.lifesciencesworld.com/what-dog-lived-30-years/",
-      "source": "lifesciencesworld.com",
-      "score": 83
-    },
-    {
       "date": "2026-03-07 11:05:42",
       "title": "How was the California condor saved from extinction?",
       "source_url": "https://www.lifesciencesworld.com/how-was-the-california-condor-saved-from-extinction/",
@@ -207,6 +193,13 @@
       "date": "2026-04-03 09:49:36",
       "title": "Are pangolins still alive?",
       "source_url": "https://www.lifesciencesworld.com/are-pangolins-still-alive/",
+      "source": "lifesciencesworld.com",
+      "score": 82
+    },
+    {
+      "date": "2026-04-04 09:33:30",
+      "title": "Can eagles take cats?",
+      "source_url": "https://www.lifesciencesworld.com/can-eagles-take-cats/",
       "source": "lifesciencesworld.com",
       "score": 82
     }
