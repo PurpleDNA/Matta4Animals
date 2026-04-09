@@ -1,13 +1,6 @@
 {
   "posted_stories": [
     {
-      "date": "2026-03-10 09:39:39",
-      "title": "What is the new species of fuzzy crab?",
-      "source_url": "https://www.lifesciencesworld.com/what-is-the-new-species-of-fuzzy-crab/",
-      "source": "lifesciencesworld.com",
-      "score": 78
-    },
-    {
       "date": "2026-03-11 10:46:58",
       "title": "Could the Caspian tiger still exist?",
       "source_url": "https://www.lifesciencesworld.com/could-the-caspian-tiger-still-exist/",
@@ -209,6 +202,13 @@
       "source_url": "https://www.lifesciencesworld.com/do-eagles-put-thorns-in-their-nest/",
       "source": "lifesciencesworld.com",
       "score": 83
+    },
+    {
+      "date": "2026-04-09 10:08:33",
+      "title": "No place like home: new report exposes the cruelty elephants suffer in UK and Irish zoos",
+      "source_url": "https://www.freedomforanimals.org.uk/elephant-report",
+      "source": "freedomforanimals.org.uk",
+      "score": 87
     }
   ]
 }
