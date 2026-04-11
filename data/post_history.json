@@ -1,20 +1,6 @@
 {
   "posted_stories": [
     {
-      "date": "2026-03-11 10:46:58",
-      "title": "Could the Caspian tiger still exist?",
-      "source_url": "https://www.lifesciencesworld.com/could-the-caspian-tiger-still-exist/",
-      "source": "lifesciencesworld.com",
-      "score": 77
-    },
-    {
-      "date": "2026-03-11 11:01:04",
-      "title": "Did DDT affect condors?",
-      "source_url": "https://www.lifesciencesworld.com/did-ddt-affect-condors/",
-      "source": "lifesciencesworld.com",
-      "score": 84
-    },
-    {
       "date": "2026-03-12 09:38:00",
       "title": "Are there about 400 species of bats?",
       "source_url": "https://www.lifesciencesworld.com/are-there-about-400-species-of-bats/",
@@ -216,6 +202,13 @@
       "source_url": "https://www.freedomforanimals.org.uk/News/new-primate-licensing-laws-come-into-force",
       "source": "freedomforanimals.org.uk",
       "score": 87
+    },
+    {
+      "date": "2026-04-11 09:36:21",
+      "title": "Huge Win for Animals! PetSmart Stops Selling Turtles, Tortoises, and More",
+      "source_url": "https://www.peta.org/news/petsmart-turtles-tortoises/",
+      "source": "peta.org",
+      "score": 82
     }
   ]
 }
