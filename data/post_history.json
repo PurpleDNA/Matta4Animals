@@ -1,13 +1,6 @@
 {
   "posted_stories": [
     {
-      "date": "2026-03-15 09:29:45",
-      "title": "Are wolverines making a comeback?",
-      "source_url": "https://www.lifesciencesworld.com/are-wolverines-making-a-comeback/",
-      "source": "lifesciencesworld.com",
-      "score": 82
-    },
-    {
       "date": "2026-03-16 10:02:12",
       "title": "What was the first walking fish on earth?",
       "source_url": "https://www.lifesciencesworld.com/what-was-the-first-walking-fish-on-earth/",
@@ -202,6 +195,13 @@
       "source_url": "https://www.lifesciencesworld.com/do-eagles-eat-fawns/",
       "source": "lifesciencesworld.com",
       "score": 83
+    },
+    {
+      "date": "2026-04-14 10:12:51",
+      "title": "BBC Investigation Supports Freedom for Animals' Claims about Cumbria Safari Zoo",
+      "source_url": "https://www.freedomforanimals.org.uk/News/bbc-supports-ffa-claims",
+      "source": "freedomforanimals.org.uk",
+      "score": 90
     }
   ]
 }
