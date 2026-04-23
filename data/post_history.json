@@ -1,13 +1,6 @@
 {
   "posted_stories": [
     {
-      "date": "2026-03-24 09:52:30",
-      "title": "What is the rarest Falcon in the world?",
-      "source_url": "https://www.lifesciencesworld.com/what-is-the-rarest-falcon-in-the-world/",
-      "source": "lifesciencesworld.com",
-      "score": 79
-    },
-    {
       "date": "2026-03-25 09:49:15",
       "title": "What is the rarest starling?",
       "source_url": "https://www.lifesciencesworld.com/what-is-the-rarest-starling/",
@@ -202,6 +195,13 @@
       "source_url": "https://www.lifesciencesworld.com/what-is-the-rarest-garden-bird-in-the-uk/",
       "source": "lifesciencesworld.com",
       "score": 82
+    },
+    {
+      "date": "2026-04-23 10:19:27",
+      "title": "25 Dogs Found Dead, Many Reportedly Still Chained, at Alaska Dog-Sled Kennel",
+      "source_url": "https://www.peta.org/news/alaska-dog-sled-deaths-kennel-walkers-wild-ride/",
+      "source": "peta.org",
+      "score": 84
     }
   ]
 }
