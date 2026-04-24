@@ -1,13 +1,6 @@
 {
   "posted_stories": [
     {
-      "date": "2026-03-25 09:49:15",
-      "title": "What is the rarest starling?",
-      "source_url": "https://www.lifesciencesworld.com/what-is-the-rarest-starling/",
-      "source": "lifesciencesworld.com",
-      "score": 85
-    },
-    {
       "date": "2026-03-26 09:57:46",
       "title": "Can two female condors have babies?",
       "source_url": "https://www.lifesciencesworld.com/can-two-female-condors-have-babies/",
@@ -202,6 +195,13 @@
       "source_url": "https://www.peta.org/news/alaska-dog-sled-deaths-kennel-walkers-wild-ride/",
       "source": "peta.org",
       "score": 84
+    },
+    {
+      "date": "2026-04-24 10:18:14",
+      "title": "Is the story of Wojtek true?",
+      "source_url": "https://www.lifesciencesworld.com/is-the-story-of-wojtek-true/",
+      "source": "lifesciencesworld.com",
+      "score": 85
     }
   ]
 }
