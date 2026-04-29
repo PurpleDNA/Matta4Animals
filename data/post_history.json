@@ -1,13 +1,6 @@
 {
   "posted_stories": [
     {
-      "date": "2026-03-30 10:13:17",
-      "title": "Who was the first cloned ferret?",
-      "source_url": "https://www.lifesciencesworld.com/who-was-the-first-cloned-ferret/",
-      "source": "lifesciencesworld.com",
-      "score": 88
-    },
-    {
       "date": "2026-03-31 10:02:02",
       "title": "When was the last Caspian tiger killed?",
       "source_url": "https://www.lifesciencesworld.com/when-was-the-last-caspian-tiger-killed/",
@@ -202,6 +195,13 @@
       "source_url": "https://www.lifesciencesworld.com/what-is-the-new-dinosaur-in-north-dakota/",
       "source": "lifesciencesworld.com",
       "score": 84
+    },
+    {
+      "date": "2026-04-29 10:52:04",
+      "title": "Are chimps more aggressive than gorillas?",
+      "source_url": "https://www.lifesciencesworld.com/are-chimps-more-aggressive-than-gorillas/",
+      "source": "lifesciencesworld.com",
+      "score": 78
     }
   ]
 }
